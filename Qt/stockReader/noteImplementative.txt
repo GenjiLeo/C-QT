@@ -1,0 +1,12 @@
+Le seguenti funzionalità sono state attuate non avendo particolari specifiche dal file di progettazione
+
+1) I giorni con valori di tipo "." sono stati ignorati
+	Questo previene situazioni tipo grafici di "X" giorni senza alcun valore da mostrare
+2) La funzionalità "Tooltip" è stata implementata da un esempio disponibile sulla documentazione Qt
+	Si veda "Callout example" se necessario
+	La classe callout è stata modificata per consentire unicamente la view di un tooltip quando viene eseguito
+	L'hover del mouse.
+3) L'utente è in grado di selezionare un range di valori da visualizzare sull'asse Y al fine di consentire una 
+	visualizzazione di grafici singoli
+4) In caso di giornate non presenti sul file (e.g 06-01-2018, sono in genere giornate di chiusura di mercato) oppure
+	non selezionando alcun file da leggere il programma presenta all'utente una finestra di errore.
